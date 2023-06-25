@@ -1,0 +1,45 @@
+ @api=http://localhost:8080
+
+### GET SALUDAR
+GET {{api}}/saludar
+
+### GET Animals
+GET {{api}}/animales/granja
+
+### GET Calcular
+GET {{api}}/calcular/2
+
+### GET userData
+GET {{api}}/userData
+
+### GET userData/v2
+GET {{api}}/userData/v2
+
+### GET userData/v3
+GET {{api}}/userData/v3
+
+### GET mibean
+GET {{api}}/mibean
+
+
+### GET micomponente
+GET {{api}}/micomponente
+
+### Post mapping
+POST {{api}}/libro  
+ Content-Type: application/json
+
+ {
+    "name":"LIBRO",
+    "editorial":"no se que"
+ }
+
+### Post order
+POST {{api}}/order  
+Content-Type: application/json
+
+[
+ {"nombre":"LIBRO", "precio":290 },
+ {"nombre":"Otro", "precio":440 }
+
+]
